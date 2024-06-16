@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishan Gautam's Visual Arts Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(200px, auto);
+            gap: 10px;
+            max-width: 90%;
+            margin: auto;
+        }
+        .collage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .collage img:nth-child(1) { grid-column: span 2; }
+        .collage img:nth-child(2) { grid-column: span 1; }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="collage">
+        <img src="comp3\1.jpg" alt="Image 1">
+        <img src="comp3\2.jpeg" alt="Image 2">
+	<img src="comp3\3.jpeg" alt="Image 3">
+	<img src="comp3\4.jpeg" alt="Image 4">
+	<img src="comp3\5.jpeg" alt="Image 5">
+	<img src="comp3\6.jpeg" alt="Image 6">
+	<img src="comp3\7.jpeg" alt="Image 7">
+	<img src="comp3\8.jpeg" alt="Image 8">
+	<img src="comp3\9.jpeg" alt="Image 9">
+	<img src="comp3\10.jpeg" alt="Image 10">
+	<img src="comp3\11.jpeg" alt="Image 11">
+	<img src="comp3\12.jpeg" alt="Image 12">
+	<img src="comp3\13.jpeg" alt="Image 13">
+	<img src="comp3\14.jpeg" alt="Image 14">
+	<img src="comp3\15.jpeg" alt="Image 15">
+
+        
+
+    </div>
+</body>
+</html>
