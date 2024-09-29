@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishan Gautam's Visual Arts Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(200px, auto);
+            gap: 10px;
+            max-width: 90%;
+            margin: auto;
+        }
+        .collage img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .collage img:nth-child(1) { grid-column: span 2; }
+        .collage img:nth-child(2) { grid-column: span 1; }
+        .collage img:nth-child(3) { grid-column: span 1; }
+        .collage img:nth-child(4) { grid-column: span 1; }
+        .collage img:nth-child(5) { grid-column: span 1; }
+        .collage img:nth-child(6) { grid-column: span 1; }
+        .collage img:nth-child(7) { grid-column: span 2; }
+        .collage img:nth-child(8) { grid-column: span 1; }
+        .collage img:nth-child(9) { grid-column: span 2; }
+        .collage img:nth-child(10) { grid-column: span 1; }
+        .collage img:nth-child(11) { grid-column: span 3; }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="collage">
+      
+        <img src="lingerie\DSC01322.jpg" alt="Image 2">        
+        <img src="lingerie\DSC01205.jpg" alt="Image 2">        
+        <img src="lingerie\DSC01249.jpg" alt="Image 2">        
+        <img src="lingerie\DSC01268.jpg" alt="Image 2">        
+        <img src="lingerie\DSC01273.jpg" alt="Image 2">       
+        <img src="lingerie\DSC01283-Enhanced-NR.jpg" alt="Image 2">    
+        <img src="lingerie\DSC01289.jpg" alt="Image 2">    
+        <img src="lingerie\DSC01326.jpg" alt="Image 2">    
+
+    </div>
+</body>
+</html>
